@@ -1,0 +1,25 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+  
+@media (max-width: 640px) {
+    .image {
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+    }
+} 

@@ -1,0 +1,41 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bookmark {
+    font-size: 24px;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .id1 {
+    background-color: #EF4444;
+  }
+  
+  .id2 {
+    background-color: royalblue;
+  }
+  
+  .id3 {
+    background-color: green;
+  }
+  
+  .id4 {
+    background-color: orange;
+  }
+  
+  /* スマホサイズ用 */
+  @media (max-width: 640px) {
+    .container {
+      padding: 0 1rem;
+    }
+  
+    .bookmark {
+      font-size: 18px;
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+  }
+  
